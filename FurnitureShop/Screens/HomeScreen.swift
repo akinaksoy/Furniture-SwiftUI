@@ -31,6 +31,7 @@ struct HomeScreen: View {
                                     }
                                 }
                             }
+                            .padding()
                         }
                         
                         Text("Popular")
@@ -67,6 +68,8 @@ struct HomeScreen: View {
                         Spacer()
                     }
                 }
+                .padding(.top)
+
                 
                 HStack {
                     BottomNavBarItem(image: Image("Home")) {                }

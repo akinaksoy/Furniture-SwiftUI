@@ -11,10 +11,9 @@
 		1FC5DDF22A22979B0089B335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5DDF12A22979B0089B335 /* ContentView.swift */; };
 		1FC5DDF42A22979C0089B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC5DDF32A22979C0089B335 /* Assets.xcassets */; };
 		1FC5DDF72A22979C0089B335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC5DDF62A22979C0089B335 /* Preview Assets.xcassets */; };
-		1FC5DE012A2297C10089B335 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FC5DE002A2297B80089B335 /* PlayfairDisplay-Regular.ttf */; };
-		1FC5DE022A2297C10089B335 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FC5DDFF2A2297B30089B335 /* PlayfairDisplay-Bold.ttf */; };
 		1FC5DE062A2383D40089B335 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5DE052A2383D40089B335 /* HomeScreen.swift */; };
 		1FC5DE0A2A238DBB0089B335 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5DE092A238DBB0089B335 /* DetailScreen.swift */; };
+		787B82A32A2C7396008C574B /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 787B82A22A2C7396008C574B /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +22,10 @@
 		1FC5DDF12A22979B0089B335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FC5DDF32A22979C0089B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FC5DDF62A22979C0089B335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1FC5DDFF2A2297B30089B335 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Bold.ttf"; path = "../../../../../../Downloads/Playfair_Display/static/PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
-		1FC5DE002A2297B80089B335 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Regular.ttf"; path = "../../../../../../Downloads/Playfair_Display/static/PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		1FC5DE032A2297CF0089B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1FC5DE052A2383D40089B335 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		1FC5DE092A238DBB0089B335 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		787B82A22A2C7396008C574B /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,19 +79,10 @@
 		1FC5DDFD2A2297A10089B335 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1FC5DDFE2A2297A80089B335 /* Fonts */,
+				787B82A22A2C7396008C574B /* Fonts */,
 				1FC5DDF32A22979C0089B335 /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		1FC5DDFE2A2297A80089B335 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				1FC5DE002A2297B80089B335 /* PlayfairDisplay-Regular.ttf */,
-				1FC5DDFF2A2297B30089B335 /* PlayfairDisplay-Bold.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		1FC5DE042A2383BF0089B335 /* Screens */ = {
@@ -163,8 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC5DE012A2297C10089B335 /* PlayfairDisplay-Regular.ttf in Resources */,
-				1FC5DE022A2297C10089B335 /* PlayfairDisplay-Bold.ttf in Resources */,
+				787B82A32A2C7396008C574B /* Fonts in Resources */,
 				1FC5DDF72A22979C0089B335 /* Preview Assets.xcassets in Resources */,
 				1FC5DDF42A22979C0089B335 /* Assets.xcassets in Resources */,
 			);
